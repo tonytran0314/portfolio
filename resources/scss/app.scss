@@ -73,6 +73,7 @@
     height: 100vh; // view height | if menu is fixed
     position: relative;
     display: flex;
+    overflow: hidden;
 
     #hero_content {
         display: flex;
@@ -185,23 +186,177 @@
 /* -------------------------------------------------------------------------- */
 #about_me {
     width: 100%;
-    height: 1000px;
-    background-color: antiquewhite;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0;
+    gap: 32px;
+
+    h3 {
+        font-size: 50.5px;
+        font-weight: 700;
+        line-height: 80.8px;
+    }
+
+    p {
+        max-width: 50%;
+        text-align: center;
+    }
+}
+
+#tech_stack {
+    background-color: $primary-color;
+
+    #tech_stack_content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        // justify-content: space-around;
+        gap: 48px;
+        padding: 40px 0;
+
+        .tech_item {
+            p {
+                text-align: center;
+                color: white;
+            }
+        }
+    }
 }
 
 
 /* -------------------------------------------------------------------------- */
 /*                                  PROJECTS                                  */
 /* -------------------------------------------------------------------------- */
+#project {
+    #project_content {
+        padding: 96px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+        h3 {
+            font-size: 50.5px;
+            font-weight: 700;
+            line-height: 80.8px;
+            margin: 56px 0 80px 0;
+        }
+        #projects_list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 96px;
+
+            .projects {
+                display: flex;
+                gap: 32px;
+
+                h4 {
+                    font-size: 38px;
+                    font-weight: 700;
+                    line-height: 60.8px;
+                }
+
+                .about_project {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                    max-width: 560px;
+                    padding: 24px 40px;
+
+                    .project_actions {
+                        display: flex;
+                        gap: 28px;
+
+                        a {
+                            padding: 8px 16px;
+                            text-decoration: none;
+                            border-radius: 8px;
+                            color: $primary-color;
+                            border: 2px solid $primary-color;
+
+                            &:first-child {
+                                background-color: $primary-color;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+                
+                &:nth-child(even) {
+                    flex-direction: row-reverse;
+                }
+            }
+
+        }
+    }
+}
 
 
 /* -------------------------------------------------------------------------- */
 /*                                 CONTACT ME                                 */
 /* -------------------------------------------------------------------------- */
+#contact {
+    padding: 96px 0 192px 0;
+    #contact_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+        h3 {
+            font-size: 50.5px;
+            font-weight: 700;
+            line-height: 80.8px;
+        }
+
+        #contacts_list {
+            display: flex;
+            align-items: center;
+            gap: 80px;
+
+            .contacts {
+                display: flex;
+                gap: 8px;
+                flex-wrap: wrap;
+                align-items: center;
+
+                div {
+                    border-radius: 50%;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    padding: 16px;
+                    border: 2px solid $primary-color;
+
+                    #location_icon {
+                        width: 38px;
+                        height: 38px;
+                    }
+
+                    #email_location {
+                        width: 34px;
+                        height: 34px;
+                    }
+
+                    #linkedin_icon {
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 /* -------------------------------------------------------------------------- */
 /*                                   FOOTER                                   */
 /* -------------------------------------------------------------------------- */
+
+#footer {
+    background-color: $primary-color;
+    color: white;
+    text-align: center;
+    padding: 32px 0;
+}
