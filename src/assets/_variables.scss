@@ -1,0 +1,27 @@
+// dark colors 
+$baseColor: #0A0F19;
+$boxColor: #0E1727;
+$secondaryButton: #102035;
+$darkLabel: #5D6E7F;
+
+// light colors
+$red: #EC454F;
+$blue: #1B55AC;
+$lightBlue: #21C8F6;
+$extraLightBlue: #BAD9FC;
+$white: #FFFFFF;
+$lightLabel: #879FBD;
+
+$fontSize: 16px;
+$lineHeightRatio: 1.6;
+
+@mixin allWaysCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin fitScreenSize() {
+    width: 100%;
+    height: 100vh;
+}
