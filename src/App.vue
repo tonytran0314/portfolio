@@ -9,6 +9,7 @@
 
 <template>
   <Menu />
+  <HeroSection />
 </template>
 
 <style lang="scss" scoped>

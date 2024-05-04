@@ -15,11 +15,11 @@ $lightLabel: #879FBD;
 $fontSize: 16px;
 $lineHeightRatio: 1.6;
 
-// @mixin allWaysCenter() {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
+@mixin allWaysCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @mixin fitScreenSize() {
     width: 100%;
