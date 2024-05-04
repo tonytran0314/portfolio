@@ -10,22 +10,22 @@
         <nav>
             <ul>
                 <li>
-                    <a href="">
+                    <a href="#">
                         <h6>Home</h6>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         <h6>About Me</h6>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         <h6>Projects</h6>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         <h6>Contact</h6>
                     </a>
                 </li>

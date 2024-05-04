@@ -12,6 +12,8 @@
   <HeroSection />
   <About />
   <Projects />
+  <Contact />
+  <Footer />
 </template>
 
 <style lang="scss" scoped>

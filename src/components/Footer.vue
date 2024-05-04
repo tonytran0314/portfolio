@@ -3,11 +3,31 @@
 </script>
 
 <template>
-    <div>
-        
+    <div id="footer">
+        <div id="copyright">
+            <p>Copyright © 2024. All rights are reserved</p>
+        </div>
+        <div id="social_links">
+            <a href="#" target="blank"><img src="/src/assets/imgs/Linkedin.png" alt="LinkedIn"></a>
+            <a href="#" target="blank"><img src="/src/assets/imgs/Github.png" alt="Github"></a>
+        </div>
     </div>
 </template>
 
-<style>
-    
+<style lang="scss" scoped>
+
+    @import '/src/assets/variables';
+
+    #footer {
+        display: flex;
+        justify-content: center;
+        gap: 20rem;
+        padding: 2.5rem 0;
+        background-color: $blue;
+
+        #social_links {
+            display: flex;
+            gap: 1.5rem;
+        }
+    }
 </style>

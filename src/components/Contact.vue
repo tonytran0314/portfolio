@@ -3,11 +3,14 @@
 </script>
 
 <template>
-    <div>
-        
+    <div id="contact">
+        contact
     </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
+
+    @import '/src/assets/variables';
+
     
 </style>

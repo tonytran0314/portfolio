@@ -24,7 +24,7 @@
                                 <h6>Laravel, VueJS</h6>
                             </div>
                             <div class="description">
-                                Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description
+                                <p>Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description</p>
                             </div>
                         </div>
                         <div class="actions">
@@ -46,7 +46,7 @@
     
     #project {
         width: 100%;
-        // background-color: $blue;
+        background-color: $blue;
         padding: 8rem 14rem;
 
         #project_center {
