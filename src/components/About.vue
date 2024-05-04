@@ -39,7 +39,7 @@
 
     #about {
         width: 100%;
-        background-color: $red;
+        // background-color: $red;
         height: 100vh;
         @include allWaysCenter();
 

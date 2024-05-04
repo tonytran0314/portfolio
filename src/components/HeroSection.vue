@@ -34,7 +34,7 @@
     #hero_section {
         width: 100%;
         height: calc(100vh - 5rem);
-        background-color: $blue;
+        // background-color: $blue;
         @include allWaysCenter();
 
         #hero_center {
