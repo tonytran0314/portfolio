@@ -38,8 +38,10 @@
     @import '/src/assets/variables';
 
     #about {
+        width: 100%;
         background-color: $red;
-        padding: 8rem;
+        height: 100vh;
+        @include allWaysCenter();
 
         #about_center {
             display: flex;
