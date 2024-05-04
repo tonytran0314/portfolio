@@ -10,6 +10,7 @@
 <template>
   <Menu />
   <HeroSection />
+  <About />
 </template>
 
 <style lang="scss" scoped>
