@@ -4,16 +4,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: $white;
 }
 
 html {
     font-size: $fontSize;
 }
 
-#app {
-    @include fitScreenSize();
-    @include allWaysCenter();
+body {
+    width: 100%;
     background-color: $baseColor;
+    display: flex;
+    justify-content: center;
+}
+
+#app {
+    // @include fitScreenSize();
+    // @include allWaysCenter();
+    background-color: $baseColor;
+    width: 1320px;
+    max-width: 1320px;
 }
 
 // 1.25 typography ratio
