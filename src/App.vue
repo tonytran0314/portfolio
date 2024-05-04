@@ -11,6 +11,7 @@
   <Menu />
   <HeroSection />
   <About />
+  <Projects />
 </template>
 
 <style lang="scss" scoped>
