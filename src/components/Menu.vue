@@ -15,17 +15,17 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#about">
                         <h6>About Me</h6>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#project">
                         <h6>Projects</h6>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#contact">
                         <h6>Contact</h6>
                     </a>
                 </li>
@@ -39,12 +39,14 @@
     @import '/src/assets/variables';
 
     #menu {
-        width: 100%;
+        width: 82.5rem;
         height: 5rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 1.5rem;
+        position: fixed;
+        background-color: $baseColor;
         // background-color: $red;
 
         #logo {

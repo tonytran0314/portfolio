@@ -10,14 +10,14 @@
                     <h1>
                         Hello, I am <br />
                         <span>Huy Tran</span> <br />
-                        a Web Developer 
+                        a Frontend Developer 
                         <!-- a Web Developer -->
                         <!-- a Backend Developer -->
                         <!-- a Frontend Developer -->
                     </h1>
                 </div>
                 <div id="view_projects_button">
-                    <button><h6>View my Projects</h6></button>
+                    <a href="#project"><h6>View my Projects</h6></a>
                 </div>
             </div>
             <div id="right_col">
@@ -33,7 +33,7 @@
 
     #hero_section {
         width: 100%;
-        height: calc(100vh - 5rem);
+        height: 100vh;
         // background-color: $blue;
         @include allWaysCenter();
 
@@ -52,12 +52,15 @@
                     color: $red;
                 }
 
-                button {
+                a {
+                    display: inline-block;
+                    width: auto;
                     background-color: $blue;
                     border: none;
                     cursor: pointer;
                     padding: 1rem 1.5rem;
                     border-radius: 0.5rem;
+                    text-decoration: none;
                 }
 
             }
@@ -73,5 +76,11 @@
             }
         }
     }
+
+    // @media only screen and (max-width: 600px) {
+    //     #hero_section {
+    //         background-color: lightblue;
+    //     }
+    // }
     
 </style>
