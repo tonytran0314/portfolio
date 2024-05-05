@@ -47,7 +47,7 @@
     #project {
         width: 100%;
         // background-color: $blue;
-        padding: 8rem 14rem;
+        padding: 4rem;
 
         #project_center {
             display: flex;
@@ -117,7 +117,27 @@
                 }
 
                 .reversed_card {
-                    // flex-direction: row-reverse; // for 2nd, 4th,... items
+                    flex-direction: row-reverse; // for 2nd, 4th,... items
+                }
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        .card {
+            display: flex;
+            flex-direction: column;
+
+            .project_image {
+                text-align: center;
+            }
+
+            .project_details {
+                text-align: center;
+
+                .actions {
+                    display: flex;
+                    justify-content: center;
                 }
             }
         }

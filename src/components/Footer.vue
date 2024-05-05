@@ -23,11 +23,24 @@
         justify-content: center;
         gap: 20rem;
         padding: 2.5rem 0;
-        background-color: $blue;
 
         #social_links {
             display: flex;
             gap: 1.5rem;
+        }
+    }
+
+    @media only screen and (max-width: 970px) {
+        #footer {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 3rem;
+
+            #social_links {
+                display: flex;
+                justify-content: center;
+            }
         }
     }
 </style>

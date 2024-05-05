@@ -48,7 +48,6 @@
         padding: 0 1.5rem;
         position: fixed;
         background-color: $baseColor;
-        background-color: $red;
         gap: 615px;
 
         #logo {
