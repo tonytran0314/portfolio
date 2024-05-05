@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  <Menu />
+  <!-- <Menu /> -->
   <HeroSection />
   <About />
   <Projects />
