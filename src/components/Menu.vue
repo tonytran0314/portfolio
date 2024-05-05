@@ -39,7 +39,8 @@
     @import '/src/assets/variables';
 
     #menu {
-        width: 82.5rem;
+        // width: 82.5rem;
+        width: auto;
         height: 5rem;
         display: flex;
         justify-content: space-between;
@@ -47,9 +48,11 @@
         padding: 0 1.5rem;
         position: fixed;
         background-color: $baseColor;
-        // background-color: $red;
+        background-color: $red;
+        gap: 615px;
 
         #logo {
+            width: 10.3125rem;
             span {
                 color: $darkLabel;
             }
