@@ -13,7 +13,7 @@
   <About />
   <Projects />
   <Contact />
-  <!-- <Footer /> -->
+  <Footer />
 </template>
 
 <style lang="scss" scoped>
