@@ -11,8 +11,8 @@
   <Menu />
   <HeroSection />
   <About />
-  <!-- <Projects />
-  <Contact />
+  <Projects />
+  <!-- <Contact />
   <Footer /> -->
 </template>
 

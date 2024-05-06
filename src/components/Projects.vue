@@ -46,7 +46,9 @@
     
     #project {
         width: 100%;
-        background-color: $blue;
+        max-width: 82.5rem;
+        height: auto;
+        background-color: $darkLabel;
         padding: 4rem;
 
         #project_center {
@@ -75,8 +77,8 @@
 
                     .project_image {
                         img {
-                            width: 22.5rem;
-                            height: 15rem;
+                            width: 100%;
+                            height: auto;
                             border-radius: 1rem;
                             cursor: pointer;
                         }
@@ -145,6 +147,22 @@
                     justify-content: center;
                 }
             }
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        #project {
+            padding: 4rem 1rem;
+        }
+
+        .card {
+            gap: 1rem;
+            padding: 2rem !important;
+        }
+        
+        .actions {
+            display: flex;
+            flex-direction: column;
         }
     }
 </style>
