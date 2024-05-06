@@ -46,7 +46,7 @@
     @import '/src/assets/variables';
 
     #contact {
-        background-color: $red;
+        background-color: $lightLabel;
         width: 100%;
         height: 100vh;
         display: flex;
@@ -83,9 +83,30 @@
         }
     }
     
-    @media only screen and (max-width: 1100px) {
+    @media only screen and (max-width: 1200px) {
+        #contact {
+            height: auto;
+            padding: 4rem 0;
+
+            #contact_body {
+                flex-direction: column-reverse;
+
+                #contacts {
+                    .item {
+                        padding: 0 32%;
+                    }
+                }
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
         #map {
             display: none;
+        }
+
+        .item {
+            padding: 0 !important;
         }
     }
 </style>
