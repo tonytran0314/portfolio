@@ -67,13 +67,9 @@
         padding: 0 1.5rem;
         position: fixed;
         gap: 2rem;
+        background-color: $lightLabel;
 
         #logo {
-            // width: 10.3125rem;
-            // span {
-            //     color: $darkLabel;
-            // }
-
             img {
                 width: 10rem;
             }

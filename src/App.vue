@@ -9,8 +9,8 @@
 
 <template>
   <Menu />
-  <!-- <HeroSection />
-  <About />
+  <HeroSection />
+  <!-- <About />
   <Projects />
   <Contact />
   <Footer /> -->

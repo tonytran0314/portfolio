@@ -7,18 +7,21 @@
         <div id="hero_center">
             <div id="left_col">
                 <div id="greeting">
+                    <h3>
+                        Hello, I am
+                    </h3>
                     <h1>
-                        Hello, I am <br />
-                        <span id="name">Huy Tran</span> <br />
-                        <span id="letter_a">a </span> 
+                        Huy Tran
+                    </h1>
+                    <h3>
                         <span id="typing">
-                            <span>Frontend</span>
+                            <span>A Frontend</span>
                             <span> Developer</span>
                         </span>
                         <!-- a Web Developer -->
                         <!-- a Backend Developer -->
                         <!-- a Frontend Developer -->
-                    </h1>
+                    </h3>
                 </div>
                 <div id="view_projects_button">
                     <a href="#project"><h6>VIEW MY PROJECTS</h6></a>
@@ -31,14 +34,16 @@
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
     @import '/src/assets/variables';
 
     #hero_section {
         width: 100%;
-        height: 100vh;
-        background-color: $blue;
+        max-width: 82.5rem;
+        height: calc(100vh - 5rem);
+        background-color: $darkLabel;
+        margin-top: 5rem;
         @include allWaysCenter();
 
         #hero_center {
@@ -46,32 +51,28 @@
             gap: 5rem;
 
             #left_col {
-                width: 40rem;
-                min-width: 40rem;
+                min-width: 26rem;
                 display: flex;
                 flex-direction: column;
                 gap: 1.5rem;
 
                 #greeting {
-                    #name {
+                    h1 {
                         color: $red;
-                    }
-
-                    #test {
-                        display: flex;
-                        flex-wrap: wrap;
                     }
                 }
 
-                a {
-                    display: inline-block;
-                    width: auto;
-                    background-color: $blue;
-                    border: none;
-                    cursor: pointer;
-                    padding: 1rem 1.5rem;
-                    border-radius: 0.5rem;
-                    text-decoration: none;
+                #view_projects_button {
+                    a {
+                        display: inline-block;
+                        width: auto;
+                        background-color: $blue;
+                        border: none;
+                        cursor: pointer;
+                        padding: 1rem 1.5rem;
+                        border-radius: 0.5rem;
+                        text-decoration: none;
+                    }
                 }
 
             }
@@ -87,33 +88,22 @@
             }
         }
     }
-
-    @media only screen and (max-width: 1100px) {
+    @media only screen and (max-width: 1000px) {
         #hero_section {
-            margin-top: 8rem;
-            height: 120vh;
-            
+            height: auto;
+            padding: 4rem 0;
+
             #hero_center {
-                display: flex;
                 flex-direction: column;
                 align-items: center;
-
-                #greeting {
+                
+                #greeting, #view_projects_button {
                     text-align: center;
-                }
-
-                #view_projects_button {
-                    margin: auto;
                 }
             }
         }
     }
-
-    @media only screen and (max-width: 700px) {
-        #letter_a {
-            display: none;
-        }
-
+    @media only screen and (max-width: 576px) {
         #typing {
             display: flex;
             flex-direction: column;
