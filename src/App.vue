@@ -10,8 +10,8 @@
 <template>
   <Menu />
   <HeroSection />
-  <!-- <About />
-  <Projects />
+  <About />
+  <!-- <Projects />
   <Contact />
   <Footer /> -->
 </template>

@@ -67,7 +67,7 @@
         padding: 0 1.5rem;
         position: fixed;
         gap: 2rem;
-        background-color: $lightLabel;
+        background-color: $red;
 
         #logo {
             img {

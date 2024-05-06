@@ -51,7 +51,7 @@
             gap: 5rem;
 
             #left_col {
-                min-width: 26rem;
+                // min-width: 26rem;
                 display: flex;
                 flex-direction: column;
                 gap: 1.5rem;
@@ -107,6 +107,13 @@
         #typing {
             display: flex;
             flex-direction: column;
+        }
+        
+        #right_col {
+            img {
+                width: 100% !important;
+                height: auto !important;
+            }
         }
     }
     

@@ -41,7 +41,7 @@
 
     #about {
         width: 100%;
-        background-color: $red;
+        background-color: $lightLabel;
         height: 100vh;
         @include allWaysCenter();
 
@@ -57,11 +57,9 @@
             #about_paragraph {
                 display: flex;
                 justify-content: center;
-                // padding: 0 16rem;
 
                 p {
                     width: 75%;
-                    // width: 32rem;
                     text-align: center;
                 }
             }
@@ -112,6 +110,10 @@
     }
 
     @media only screen and (max-width: 950px) {
+        #about {
+            height: auto;
+            padding: 4rem 0;
+        }
         #stacks {
             display: flex;
             flex-direction: column;
@@ -121,7 +123,8 @@
 
     @media only screen and (max-width: 650px) {
         #about {
-            height: 150vh;
+            height: auto;
+            padding: 4rem 0;
         }
         #two_stacks {
             display: flex;
