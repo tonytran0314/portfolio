@@ -46,7 +46,7 @@
     @import '/src/assets/variables';
 
     #contact {
-        // background-color: $red;
+        background-color: $red;
         width: 100%;
         height: 100vh;
         display: flex;

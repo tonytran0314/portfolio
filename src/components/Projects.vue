@@ -46,7 +46,7 @@
     
     #project {
         width: 100%;
-        // background-color: $blue;
+        background-color: $blue;
         padding: 4rem;
 
         #project_center {
@@ -130,6 +130,11 @@
 
             .project_image {
                 text-align: center;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
             }
 
             .project_details {

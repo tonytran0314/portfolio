@@ -9,15 +9,19 @@
                 <div id="greeting">
                     <h1>
                         Hello, I am <br />
-                        <span>Huy Tran</span> <br />
-                        a Frontend Developer 
+                        <span id="name">Huy Tran</span> <br />
+                        <span id="letter_a">a </span> 
+                        <span id="typing">
+                            <span>Frontend</span>
+                            <span> Developer</span>
+                        </span>
                         <!-- a Web Developer -->
                         <!-- a Backend Developer -->
                         <!-- a Frontend Developer -->
                     </h1>
                 </div>
                 <div id="view_projects_button">
-                    <a href="#project"><h6>View my Projects</h6></a>
+                    <a href="#project"><h6>VIEW MY PROJECTS</h6></a>
                 </div>
             </div>
             <div id="right_col">
@@ -34,7 +38,7 @@
     #hero_section {
         width: 100%;
         height: 100vh;
-        // background-color: $blue;
+        background-color: $blue;
         @include allWaysCenter();
 
         #hero_center {
@@ -48,8 +52,15 @@
                 flex-direction: column;
                 gap: 1.5rem;
 
-                span {
-                    color: $red;
+                #greeting {
+                    #name {
+                        color: $red;
+                    }
+
+                    #test {
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
                 }
 
                 a {
@@ -80,7 +91,7 @@
     @media only screen and (max-width: 1100px) {
         #hero_section {
             margin-top: 8rem;
-            height: auto;
+            height: 120vh;
             
             #hero_center {
                 display: flex;
@@ -95,6 +106,17 @@
                     margin: auto;
                 }
             }
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+        #letter_a {
+            display: none;
+        }
+
+        #typing {
+            display: flex;
+            flex-direction: column;
         }
     }
     

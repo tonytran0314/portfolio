@@ -19,11 +19,13 @@ body {
 }
 
 #app {
-    // @include fitScreenSize();
-    // @include allWaysCenter();
+    // background-color: $red;
     background-color: $baseColor;
-    width: 1320px;
+    width: 100%;
     max-width: 1320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 // 1.25 typography ratio

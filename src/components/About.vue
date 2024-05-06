@@ -10,19 +10,21 @@
             <div id="tech_stacks">
                 <h5>Tech Stacks:</h5>
                 <div id="stacks">
-                    <div class="set">
-                        <div class="item"><img src="/src/assets/imgs/Laravel.png" alt="Laravel"></div>
-                        <div class="item"><img src="/src/assets/imgs/VueJS.png" alt="VueJS"></div>
+                    <div id="two_stacks">
+                        <div class="set">
+                            <div class="item"><img src="/src/assets/imgs/Laravel.png" alt="Laravel"></div>
+                            <div class="item"><img src="/src/assets/imgs/VueJS.png" alt="VueJS"></div>
+                        </div>
+                        <div class="set">
+                            <div class="item"><img src="/src/assets/imgs/Postman.png" alt="Postman"></div>
+                            <div class="item"><img src="/src/assets/imgs/MySQL.png" alt="MySQL"></div>
+                        </div>
+                        <div class="set">
+                            <div class="item"><img src="/src/assets/imgs/Sass.png" alt="Sass"></div>
+                            <div class="item"><img src="/src/assets/imgs/Bootstrap.png" alt="Bootstrap"></div>
+                        </div>
                     </div>
-                    <div class="set">
-                        <div class="item"><img src="/src/assets/imgs/Postman.png" alt="Postman"></div>
-                        <div class="item"><img src="/src/assets/imgs/MySQL.png" alt="MySQL"></div>
-                    </div>
-                    <div class="set">
-                        <div class="item"><img src="/src/assets/imgs/Sass.png" alt="Sass"></div>
-                        <div class="item"><img src="/src/assets/imgs/Bootstrap.png" alt="Bootstrap"></div>
-                    </div>
-                    <div class="set">
+                    <div id="three_stacks" class="set">
                         <div class="item"><img src="/src/assets/imgs/HTML.png" alt="HTML"></div>
                         <div class="item"><img src="/src/assets/imgs/CSS.png" alt="CSS"></div>
                         <div class="item"><img src="/src/assets/imgs/Javascript.png" alt="Javascript"></div>
@@ -39,7 +41,7 @@
 
     #about {
         width: 100%;
-        // background-color: $red;
+        background-color: $red;
         height: 100vh;
         @include allWaysCenter();
 
@@ -55,9 +57,11 @@
             #about_paragraph {
                 display: flex;
                 justify-content: center;
+                // padding: 0 16rem;
 
                 p {
-                    width: 32rem;
+                    width: 75%;
+                    // width: 32rem;
                     text-align: center;
                 }
             }
@@ -75,12 +79,54 @@
                     flex-wrap: wrap;
                     justify-content: center;
 
-                    .set {
+                    #two_stacks {
                         display: flex;
-                        gap: 1rem;
+                        gap: 3.5rem;
                     }
+
+                    #three_stacks {
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    .set {
+                            display: flex;
+                            gap: 1rem;
+                            justify-content: center;
+                        }
                 }
             }
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        #about {
+            height: 100vh;
+            @include allWaysCenter();
+        }
+        #tech_stacks {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    @media only screen and (max-width: 950px) {
+        #stacks {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    @media only screen and (max-width: 650px) {
+        #about {
+            height: 150vh;
+        }
+        #two_stacks {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
     }
     
