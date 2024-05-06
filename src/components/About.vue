@@ -41,7 +41,7 @@
 
     #about {
         width: 100%;
-        background-color: $lightLabel;
+        background-color: $baseColor;
         height: 100vh;
         @include allWaysCenter();
 

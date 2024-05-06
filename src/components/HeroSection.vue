@@ -42,7 +42,7 @@
         width: 100%;
         max-width: 82.5rem;
         height: calc(100vh - 5rem);
-        background-color: $darkLabel;
+        background-color: $baseColor;
         margin-top: 5rem;
         @include allWaysCenter();
 

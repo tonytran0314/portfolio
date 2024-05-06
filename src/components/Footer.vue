@@ -23,7 +23,7 @@
         justify-content: center;
         gap: 20rem;
         padding: 2.5rem 0;
-        background-color: $darkLabel;
+        background-color: $baseColor;
 
         #social_links {
             display: flex;

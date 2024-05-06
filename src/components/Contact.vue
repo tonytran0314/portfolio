@@ -46,12 +46,12 @@
     @import '/src/assets/variables';
 
     #contact {
-        background-color: $lightLabel;
+        background-color: $baseColor;
         width: 100%;
         height: 100vh;
         display: flex;
         flex-direction: column;
-        gap: 5rem;
+        gap: 3rem;
         @include allWaysCenter();
 
         #contact_body {

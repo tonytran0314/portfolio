@@ -48,7 +48,7 @@
         width: 100%;
         max-width: 82.5rem;
         height: auto;
-        background-color: $darkLabel;
+        background-color: $baseColor;
         padding: 4rem;
 
         #project_center {
