@@ -7,6 +7,10 @@
     
     const checkScreen = () => {
         isMobile.value = (window.innerWidth <= MOBILE_SCREEN_SIZE) ? true : false
+
+        if(window.innerWidth > MOBILE_SCREEN_SIZE && showMobileNav.value) {
+            showMobileNav.value = false
+        }
     }
 
     const toggleMobileNav = () => {
