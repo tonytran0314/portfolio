@@ -99,7 +99,8 @@
                     -webkit-border-radius: 50%;
                     -moz-border-radius: 50%;
                     -khtml-border-radius: 50%;
-                    
+                    transform: translateZ(0);
+
                     width: 20rem;
                     height: 20rem;
                     border: 0.25rem solid $baseColor;
