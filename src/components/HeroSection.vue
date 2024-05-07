@@ -90,8 +90,16 @@
             }
 
             #right_col {
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -khtml-border-radius: 50%;
                 img {
                     border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -khtml-border-radius: 50%;
+                    
                     width: 20rem;
                     height: 20rem;
                     border: 0.25rem solid $baseColor;
