@@ -171,7 +171,7 @@
         // Vue animation
         .mobile-nav-enter-active, 
         .mobile-nav-leave-active {
-            transition: 1s ease all;
+            transition: .5s ease all;
         }
 
         .mobile-nav-enter-from,

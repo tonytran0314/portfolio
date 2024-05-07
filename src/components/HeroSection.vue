@@ -9,7 +9,8 @@
             "<span>A Frontend</span><span> Developer</span>"
         ],
         loop: true,
-        typeSpeed: 80,
+        typeSpeed: 65,
+        showCursor: false
     };
 </script>
 
@@ -28,6 +29,8 @@
                         <Typed :options="options">
                             <span class="typing"></span>
                         </Typed>
+                        <!-- <span class="typing"><span>A Frontend</span> 
+                        <span> Developer</span></span> -->
                     </h3>
                 </div>
                 <div id="view_projects_button">
@@ -58,15 +61,17 @@
             gap: 5rem;
 
             #left_col {
-                // min-width: 26rem;
                 display: flex;
                 flex-direction: column;
                 gap: 1.5rem;
 
                 #greeting {
+                    width: 26.1rem;
+                    height: 14rem;
                     h1 {
                         color: $red;
                     }
+
                 }
 
                 #view_projects_button {
@@ -111,9 +116,13 @@
         }
     }
     @media only screen and (max-width: 576px) {
-        .typing {
-            display: flex;
-            flex-direction: column;
+        #greeting {
+            width: 100% !important;
+            height: 18rem !important;
+            .typing {
+                display: flex;
+                flex-direction: column;
+            }
         }
         
         #right_col {
