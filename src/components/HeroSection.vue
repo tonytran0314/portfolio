@@ -1,5 +1,16 @@
-<script setup>
-    
+<script setup lang="ts">
+    import { Typed } from "@duskmoon/vue3-typed-js";
+    import type { TypedOptions } from "@duskmoon/vue3-typed-js";
+
+    const options: TypedOptions = {
+        strings: [
+            "<span>A Web</span><span> Developer</span>", 
+            "<span>A Backend</span><span> Developer</span>", 
+            "<span>A Frontend</span><span> Developer</span>"
+        ],
+        loop: true,
+        typeSpeed: 80,
+    };
 </script>
 
 <template>
@@ -14,13 +25,9 @@
                         Huy Tran
                     </h1>
                     <h3>
-                        <span id="typing">
-                            <span>A Frontend</span>
-                            <span> Developer</span>
-                        </span>
-                        <!-- a Web Developer -->
-                        <!-- a Backend Developer -->
-                        <!-- a Frontend Developer -->
+                        <Typed :options="options">
+                            <span class="typing"></span>
+                        </Typed>
                     </h3>
                 </div>
                 <div id="view_projects_button">
@@ -104,7 +111,7 @@
         }
     }
     @media only screen and (max-width: 576px) {
-        #typing {
+        .typing {
             display: flex;
             flex-direction: column;
         }

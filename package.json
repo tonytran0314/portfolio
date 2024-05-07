@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@duskmoon/vue3-typed-js": "^0.0.4",
     "sass": "^1.76.0",
     "vue": "^3.4.21",
     "vue-toastification": "^2.0.0-rc.5"
