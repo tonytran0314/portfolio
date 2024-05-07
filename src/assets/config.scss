@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     color: $white;
+    font-family: 'Be Vietnam Pro';
 }
 
 html {
@@ -19,7 +20,6 @@ body {
 }
 
 #app {
-    // background-color: $red;
     background-color: $baseColor;
     width: 100%;
     max-width: 1320px;

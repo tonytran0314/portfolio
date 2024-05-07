@@ -66,7 +66,7 @@
                 gap: 1.5rem;
 
                 #greeting {
-                    width: 26.1rem;
+                    width: 26.75rem;
                     height: 14rem;
                     h1 {
                         color: $red;
