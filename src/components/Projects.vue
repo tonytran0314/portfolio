@@ -1,41 +1,35 @@
 <script setup>
-    
+    import PrimaryButton from '@/components/buttons/PrimaryButton.vue'
+    import SecondaryButton from '@/components/buttons/SecondaryButton.vue'
 </script>
 
 <template>
-    <div id="project">
-        <div id="project_center">
-            <div id="project_heading">
-                <h2>Projects</h2>
-            </div>
-            <div id="projects">
+    <div class="space-y-6">
+        <div class="font-bold text-2xl text-center">Personal Projects</div>
+        <div class="flex flex-col gap-6">
 
-                <!-- Loop -->
-                <div class="card">
-                    <div class="project_image">
-                        <a href="#" target="blank">
-                            <img src="/src/assets/imgs/project_image.png" alt="Project Image">
-                        </a>
+            <!-- Loop -->
+            <a class="bg-gray-800 rounded-xl"  href="#" target="blank">
+                <div class="project_image">
+                    <img src="/src/assets/imgs/project_image.png" alt="Project Image" class="rounded-t-xl">
+                </div>
+                <div class="p-4 space-y-6">
+                    <div class="space-y-4">
+                        <div class="space-y-2">
+                            <div class="text-xl font-bold">Project Name</div>
+                            <div>Laravel, VueJS</div>
+                        </div>
+                        <div>Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description
+                        </div>
                     </div>
-                    <div class="project_details">
-                        <div class="information">
-                            <div class="title">
-                                <h5>Project Name</h5>
-                                <h6>Laravel, VueJS</h6>
-                            </div>
-                            <div class="description">
-                                <p>Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description</p>
-                            </div>
-                        </div>
-                        <div class="actions">
-                            <button class="primary_button"><p>Live Demo</p></button>
-                            <button class="secondary_button"><p>Details</p></button>
-                        </div>
+                    <div class="flex flex-col gap-3">
+                        <SecondaryButton>Details</SecondaryButton>
+                        <PrimaryButton>Live Demo</PrimaryButton>
                     </div>
                 </div>
-                <!-- /Loop -->
+            </a>
+            <!-- /Loop -->
 
-            </div>
         </div>
     </div>
 </template>
