@@ -8,8 +8,8 @@
             <p>Copyright © 2024. All rights are reserved</p>
         </div>
         <div id="social_links">
-            <a href="#" target="blank"><img src="/src/assets/imgs/Linkedin.png" alt="LinkedIn"></a>
-            <a href="#" target="blank"><img src="/src/assets/imgs/Github.png" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/huytran-web-dev/" target="blank"><img src="/src/assets/imgs/Linkedin.png" alt="LinkedIn"></a>
+            <a href="https://github.com/tonytran0314" target="blank"><img src="/src/assets/imgs/Github.png" alt="Github"></a>
         </div>
     </div>
 </template>

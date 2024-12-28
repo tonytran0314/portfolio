@@ -28,13 +28,13 @@
                         src="/src/assets/imgs/Copy@2x.png" 
                         alt="Click to copy email">
                 </div>
-                <a href="#" target="blank" class="item">
+                <a href="https://github.com/tonytran0314" target="blank" class="item">
                     <img src="/src/assets/imgs/Github.png" alt="Github image">
                     <h6>tonytran0314</h6>
                 </a>
-                <a href="#" target="blank" class="item">
+                <a href="https://www.linkedin.com/in/huytran-web-dev/" target="blank" class="item">
                     <img src="/src/assets/imgs/Linkedin.png" alt="Linkedin image">
-                    <h6>huy-tran-86b0602b1</h6>
+                    <h6>huytran-web-dev</h6>
                 </a>
             </div>
         </div>
