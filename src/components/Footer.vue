@@ -4,6 +4,8 @@
 
 <template>
     <div id="footer">
+    
+        <div class="bg-red-300 dark:bg-green-300">sd</div>
         <div id="copyright">
             <p>Copyright © 2024. All rights are reserved</p>
         </div>
@@ -13,35 +15,3 @@
         </div>
     </div>
 </template>
-
-<style lang="scss" scoped>
-
-    @import '/src/assets/variables';
-
-    #footer {
-        display: flex;
-        justify-content: center;
-        gap: 20rem;
-        padding: 2.5rem 0;
-        background-color: $baseColor;
-
-        #social_links {
-            display: flex;
-            gap: 1.5rem;
-        }
-    }
-
-    @media only screen and (max-width: 970px) {
-        #footer {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            gap: 3rem;
-
-            #social_links {
-                display: flex;
-                justify-content: center;
-            }
-        }
-    }
-</style>

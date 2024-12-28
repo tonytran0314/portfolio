@@ -8,16 +8,14 @@
 </script>
 
 <template>
-  <Menu />
-  <HeroSection />
-  <About />
-  <Projects />
-  <Contact />
-  <Footer />
+  <div class="w-full h-auto flex justify-center bg-gray-900 text-blue-50">
+    <div class="w-full h-auto max-w-[1536px] flex flex-col px-4 sm:px-8 lg:px-10">
+      <Menu />
+      <!-- <HeroSection />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer /> -->
+    </div>
+    </div>
 </template>
-
-<style lang="scss" scoped>
-
-  @import '/src/assets/variables';
-
-</style>
