@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <div>
+    <div :title="name">
         <img :src="imagePath" class="bg-gray-800 rounded-2xl size-20 basis-1/3" :alt="name">
     </div>
 </template>
