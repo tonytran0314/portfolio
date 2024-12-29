@@ -2,7 +2,7 @@
   import Menu from './components/Menu.vue'
   import HeroSection from './components/HeroSection.vue'
   import About from './components/About.vue'
-  import Projects from './components/Projects.vue'
+  import Projects from './components/projects/Container.vue'
   import Contact from './components/Contact.vue'
 </script>
 
