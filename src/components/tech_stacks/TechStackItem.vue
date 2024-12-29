@@ -2,7 +2,7 @@
     import { defineProps } from 'vue'
 
     const props = defineProps(['name'])
-    const imagePath = 'portfolio/src/assets/imgs/' + props.name + '.png'
+    const imagePath = '/src/assets/imgs/' + props.name + '.png'
 </script>
 
 <template>
