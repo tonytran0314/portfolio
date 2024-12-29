@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="flex h-20 justify-between items-center">
+    <div class="bg-gray-900 flex h-20 justify-between items-center fixed left-0 right-0 m-auto w-full px-4 sm:px-8 lg:px-10 max-w-[1536px]">
         <div class="flex items-center gap-2">
             <img src="/src/assets/imgs/logo.jpg" class="max-h-20 w-10" alt="htran logo">
             <p class="text-2xl font-bold">HTran</p>
@@ -29,7 +29,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#project">
+                    <a href="#projects">
                         <h6>Projects</h6>
                     </a>
                 </li>

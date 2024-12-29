@@ -26,6 +26,7 @@
 </script>
 
 <template>
+    <div id="projects"></div>
     <div class="space-y-6">
         <div class="font-bold text-2xl text-center">Personal Projects</div>
         <div class="flex flex-col gap-6 items-center justify-center md:flex-row flex-wrap">

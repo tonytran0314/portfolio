@@ -10,7 +10,7 @@
 </script>
 
 <template>
-    <div class="space-y-6">
+    <div id="contact" class="space-y-6">
         <div class="text-2xl text-center font-bold">Contact</div>
         <div id="contact_body">
             <div class="hidden">
