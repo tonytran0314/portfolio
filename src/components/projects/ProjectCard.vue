@@ -6,7 +6,7 @@
     import { defineProps } from 'vue'
 
     const props = defineProps(['projectImage', 'projectUrl', 'tags'])
-    const projectImagePath = `portfolio/src/assets/imgs/${props.projectImage}.png`
+    const projectImagePath = `/images/${props.projectImage}.png`
 </script>
 
 <template>

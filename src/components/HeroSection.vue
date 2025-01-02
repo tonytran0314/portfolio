@@ -36,7 +36,7 @@
             </divs>
         </div>
         <div class="size-60 lg:size-72 xl:size-80 rounded-full border-2 border-blue-600 p-1">
-            <img src="/src/assets/imgs/avatar.jpg" alt="Huy Tran avatar" class="size-full rounded-full">
+            <img src="/images/avatar.jpg" alt="Huy Tran avatar" class="size-full rounded-full">
         </div>
     </div>
 </template>
