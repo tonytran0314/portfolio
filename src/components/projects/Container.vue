@@ -3,23 +3,15 @@
 
     const projects = [
         {
-            image: 'project_image',
-            name: 'Gymlogx',
+            image: 'gymlogx/guest',
+            name: 'GymLogx',
             tags: [
                 'Laravel',
-                'VueJS'
+                'VueJS',
+                'Tailwind',
+                'Docker'
             ],
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit et sit voluptatibus magnam possimus esse iusto sint ducimus, eveniet debitis aut temporibus? Quod mollitia voluptas esse dicta corporis veniam?',
-            url: 'https://htran.tech'
-        },
-        {
-            image: 'project_image',
-            name: 'Gymlogx',
-            tags: [
-                'Laravel',
-                'VueJS'
-            ],
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit et sit voluptatibus magnam possimus esse iusto sint ducimus, eveniet debitis aut temporibus? Quod mollitia voluptas esse dicta corporis veniam?',
+            description: 'GymLogx is an app designed to help users track and log their gym workouts. Users can record the exercise name, muscle group, weight lifted, number of sets, reps and the workout date. GymLogx can visualize the progress through charts, providing users with insights into their performance over time. GymLogx makes it easy to monitor your fitness journey.',
             url: 'https://htran.tech'
         }
     ]
