@@ -32,7 +32,7 @@
                 </div>
             </div>
             <divs>
-                <PrimaryButton><a href="#project" class="sm:text-lg">My projects</a></PrimaryButton>
+                <PrimaryButton><a href="#projects" class="sm:text-lg">My projects</a></PrimaryButton>
             </divs>
         </div>
         <div class="size-60 lg:size-72 xl:size-80 rounded-full border-2 border-blue-600 p-1">

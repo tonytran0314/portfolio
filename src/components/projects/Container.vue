@@ -12,7 +12,7 @@
                 'Docker'
             ],
             description: 'GymLogx is an app designed to help users track and log their gym workouts. Users can record the exercise name, muscle group, weight lifted, number of sets, reps and the workout date. GymLogx can visualize the progress through charts, providing users with insights into their performance over time. GymLogx makes it easy to monitor your fitness journey.',
-            url: 'https://htran.tech'
+            url: 'https://gymlogx.com'
         }
     ]
 </script>
