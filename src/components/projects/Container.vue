@@ -3,8 +3,21 @@
 
     const projects = [
         {
+            image: 'meepx/guest',
+            name: 'MeepX',
+            tags: [
+                'Laravel',
+                'VueJS',
+                'Tailwind',
+                'Docker',
+                'Websocket'
+            ],
+            description: 'MeepX is a real-time chat application built with Vue.js and Laravel, leveraging WebSockets for instant messaging. It features a clean, responsive UI designed with Tailwind CSS, secure authentication with Laravel Sanctum, and a RESTful API for message storage. With Docker deployment, MeepX ensures scalability and seamless performance across devices.',
+            url: 'https://meepx.com'
+        },
+        {
             image: 'gymlogx/guest',
-            name: 'GymLogx',
+            name: 'GymlogX',
             tags: [
                 'Laravel',
                 'VueJS',
