@@ -21,6 +21,11 @@
                     <div class="flex gap-2 flex-wrap">
                         <TechTag v-for="tag in tags">{{ tag }}</TechTag>
                     </div>
+                    <div class="text-sm">
+                        <p>Test Account:</p>
+                        <p>Username: <slot name="username"></slot></p>
+                        <p>Password: <slot name="password"></slot></p>
+                    </div>
                 </div>
                 <div><slot name="description"></slot></div>
             </div>
