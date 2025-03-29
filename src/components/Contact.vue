@@ -20,15 +20,15 @@
                 <div class="flex justify-center items-center space-x-2" @click="copyEmail">
                     <font-awesome-icon :icon="['fas', 'envelope']" size="xl" />
                     <div>contact@htran.tech</div>
-                    <font-awesome-icon :icon="['fas', 'copy']" size="lg" />
+                    <font-awesome-icon :icon="['fas', 'copy']" size="lg" class="cursor-pointer" />
                 </div>
                 <a href="https://github.com/tonytran0314" target="blank" class="flex justify-center items-center space-x-2">
                     <font-awesome-icon :icon="['fab', 'github']" size="xl" />
-                    <div>tonytran0314</div>
+                    <div class="hover:underline">github.com/tonytran0314</div>
                 </a>
                 <a href="https://www.linkedin.com/in/huytran-web-dev/" target="blank" class="flex justify-center items-center space-x-2">
                     <font-awesome-icon :icon="['fab', 'linkedin']" size="xl" />
-                    <div>huytran-web-dev</div>
+                    <div class="hover:underline">linkedin.com/in/huytran-web-dev</div>
                 </a>
             </div>
         </div>
