@@ -5,7 +5,7 @@
         'Laravel',
         'VueJS',
         'Docker',
-        'Kubernetes',
+        // 'Kubernetes',
         'MySQL',
         'Postman',
         'Git',
