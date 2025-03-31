@@ -12,8 +12,10 @@
                 'Docker',
                 'Websocket'
             ],
-            username: 'test@meepx.com',
+            username: 'test1@meepx.com',
             password: 'password',
+            username2: 'test2@meepx.com',
+            password2: 'password',
             description: 'MeepX is a real-time chat application built with Vue.js and Laravel, leveraging WebSockets for instant messaging. It features a clean, responsive UI designed with Tailwind CSS, secure authentication with Laravel Sanctum, and a RESTful API for message storage. With Docker deployment, MeepX ensures scalability and seamless performance across devices.',
             url: 'https://meepx.com'
         },
@@ -43,6 +45,8 @@
                 <template #name>{{ project.name }}</template>
                 <template #username>{{ project.username }}</template>
                 <template #password>{{ project.password }}</template>
+                <template v-if="project.username2" #username2>{{ project.username2 }}</template>
+                <template v-if="project.username2" #password2>{{ project.password2 }}</template>
                 <template #description>{{ project.description }}</template>
             </ProjectCard>
         </div>

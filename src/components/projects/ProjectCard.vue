@@ -26,6 +26,13 @@
                         <p>Username: <slot name="username"></slot></p>
                         <p>Password: <slot name="password"></slot></p>
                     </div>
+                    <div v-if="$slots.username2" class="text-sm">
+                        <p>Test Account 2:</p>
+                        <p>Username: <slot name="username2"></slot></p>
+                        <p>Password: <slot name="password2"></slot></p>
+                        <br>
+                        <p class="font-bold underline">You need to use a regular tab and an incognito tab, or two separate browsers to test the app</p>
+                    </div>
                 </div>
                 <div><slot name="description"></slot></div>
             </div>
